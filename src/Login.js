@@ -6,6 +6,7 @@ class Login extends Component{
         super(props)
         this.login=this.login.bind(this);
         this.handleChange=this.handleChange.bind(this);
+        this.signup=this.signup.bind(this);
         this.state={
             email:"",
             password:""
