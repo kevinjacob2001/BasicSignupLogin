@@ -7,6 +7,7 @@ class Login extends Component{
         this.login=this.login.bind(this);
         this.handleChange=this.handleChange.bind(this);
         this.signup=this.signup.bind(this)
+        
         this.state={
             email:"",
             password:""
@@ -24,18 +25,19 @@ console.log(err);
 
 signup(e){
     e.preventDefault();
-    fire.auth().createUserWithEmailAndPassword(this.state.email,this.state.password).then(function(user) {
+    fire.auth().createUserWithEmailAndPassword(this.state.email,this.state.password).then((u)=> {
         // User is created and signed in, do whatever is needed
       }).catch(function(error) {
         // Handle Errors here.
         var errorCode = error.code;
         var errorMessage = error.message;
+    
         console.log('User did not sign up correctly');
         console.log(errorCode);
-        console.console.log(errorMessage);
+        console.log(errorMessage);
       });
 }
-
+ 
 handleChange(e){
 this.setState({
     [e.target.name]:e.target.value
@@ -66,6 +68,7 @@ this.setState({
     <button onClick={this.login}>Login</button>
     <button onClick={this.signup}>Sign up</button>
 </form>
+       
             </div>
         )
     }
