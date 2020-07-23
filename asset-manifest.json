@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/UserAuth/static/css/main.499a61cc.chunk.css",
+    "main.js": "/UserAuth/static/js/main.ec768550.chunk.js",
+    "main.js.map": "/UserAuth/static/js/main.ec768550.chunk.js.map",
+    "runtime-main.js": "/UserAuth/static/js/runtime-main.cfc80c0b.js",
+    "runtime-main.js.map": "/UserAuth/static/js/runtime-main.cfc80c0b.js.map",
+    "static/js/2.8f587237.chunk.js": "/UserAuth/static/js/2.8f587237.chunk.js",
+    "static/js/2.8f587237.chunk.js.map": "/UserAuth/static/js/2.8f587237.chunk.js.map",
+    "index.html": "/UserAuth/index.html",
+    "precache-manifest.9c65b2df8c0325bb8201d83198bc8a2a.js": "/UserAuth/precache-manifest.9c65b2df8c0325bb8201d83198bc8a2a.js",
+    "service-worker.js": "/UserAuth/service-worker.js",
+    "static/css/main.499a61cc.chunk.css.map": "/UserAuth/static/css/main.499a61cc.chunk.css.map",
+    "static/js/2.8f587237.chunk.js.LICENSE.txt": "/UserAuth/static/js/2.8f587237.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfc80c0b.js",
+    "static/js/2.8f587237.chunk.js",
+    "static/css/main.499a61cc.chunk.css",
+    "static/js/main.ec768550.chunk.js"
+  ]
+}
