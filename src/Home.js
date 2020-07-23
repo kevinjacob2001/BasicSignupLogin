@@ -16,7 +16,7 @@ constructor(props)
 
 logout(){
     fire.auth().signOut().then(function(){
-        console.log("Signout successful")
+        console.log("Sign out was successful")
     }).catch(function(error){
         console.log("Error while signing out!")
     })
