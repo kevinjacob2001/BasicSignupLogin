@@ -1,5 +1,6 @@
 import React , { Component } from "react";
 import fire from "./config/fire";
+import { functions } from "firebase";
 
 class Home extends Component{
 constructor(props)
@@ -9,8 +10,16 @@ constructor(props)
         
     }
 }
+
+
+
+
 logout(){
-    fire.auth().signOut();
+    fire.auth().signOut().then(function(){
+        console.log("Signout successful")
+    }).catch(function(error){
+        console.log("Error while signing out!")
+    })
 }
 render()
 {
