@@ -1,0 +1,14 @@
+.form{
+    width: 350px;
+    height: 300px;
+    background: rgb(53, 59, 117);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 18px;
+}
+
+

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import fire from './config/fire';
 
+import './Login.css';
+
 class Login extends Component{
     constructor(props){
         super(props)
@@ -46,7 +48,7 @@ this.setState({
 
     render(){
         return(
-<div>
+<div className="form">
     <form>
 
     <div>
