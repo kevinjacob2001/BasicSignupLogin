@@ -51,7 +51,7 @@ this.setState({
 <div className="form">
     <form>
 
-    <div>
+    <div className="email">
     <input
     type="email"
     id="email"
@@ -62,7 +62,7 @@ this.setState({
     />
     </div>
 
-    <div>   
+    <div className="password">   
         <input
         type="password"
         id="email"
@@ -73,7 +73,7 @@ this.setState({
         />
     </div>    
    
-        <div>
+        <div >
         <button onClick={this.login}>Login</button>
         </div>
     

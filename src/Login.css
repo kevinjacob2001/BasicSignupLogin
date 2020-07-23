@@ -11,4 +11,17 @@
     border-radius: 18px;
 }
 
+.email{
+    padding: 10px;
+}
+.password{
+    padding: 10px;
+}
 
+#email{
+    padding: 8px;
+    width: 250px;
+    border-radius: 8px;
+    border-radius: white;
+
+}
