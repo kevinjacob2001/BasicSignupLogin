@@ -21,6 +21,10 @@ console.log(err);
    })
 }
 
+signup(){
+    e.preventDefault
+}
+
 handleChange(e){
 this.setState({
     [e.target.name]:e.target.value
