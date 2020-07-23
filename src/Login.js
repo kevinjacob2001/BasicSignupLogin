@@ -21,8 +21,13 @@ console.log(err);
    })
 }
 
-signup(){
-    e.preventDefault
+signup(e){
+    e.preventDefault();
+    fire.auth().signInWithEmailAndPassword(this.state.email,this.state.password).then((u)=>{
+        console.log(u)
+    }).catch((err)=>{
+        console.log(err)
+    })
 }
 
 handleChange(e){
