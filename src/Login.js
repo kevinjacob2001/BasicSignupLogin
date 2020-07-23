@@ -56,7 +56,7 @@ this.setState({
     type="email"
     id="email"
     name="email"
-    placeholder="enter Email ID"
+    placeholder="Enter your Email ID"
     onChange={this.handleChange}
     value={this.state.email}
     />
@@ -67,18 +67,19 @@ this.setState({
         type="password"
         id="email"
         name="password"
-        placeholder="enter Passsword"
+        placeholder="Enter your password"
         onChange={this.handleChange}
         value={this.state.password}
         />
     </div>    
    
         <div >
-        <button onClick={this.login}>Login</button>
+        <button className="login" onClick={this.login}>Login</button>
         </div>
     
         <div>
-        <button onClick={this.signup}>Sign up</button>
+         
+        <button className="signup" onClick={this.signup}>Sign up</button>
         </div>
     
     </form>

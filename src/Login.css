@@ -25,3 +25,22 @@
     border-radius: white;
 
 }
+
+.login{
+    margin-top: 30px;
+    margin-right: 50px;
+    float: right;
+    padding: 8px;
+    background: rgb(168, 155, 185);
+    border: 1px; 
+    width: 80px;
+}
+.signup{
+    margin-top: 30px;
+    margin-left: 50px;
+    float: left;
+    padding: 8px;
+    background: rgb(162, 157, 187);
+    border: 1px; 
+    width: 80px;
+}
