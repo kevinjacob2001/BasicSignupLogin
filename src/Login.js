@@ -4,6 +4,8 @@ import fire from './config/fire';
 class Login extends Component{
     constructor(props){
         super(props)
+        this.login=this.login.bind(this);
+        this.handleChange=this.handleChange.bind(this);
         this.state={
             email:"",
             password:""
@@ -19,6 +21,12 @@ console.log(err);
    })
 }
 
+handleChange(e){
+this.setState({
+    [e.target.name]:e.target.value
+})
+}
+
     render(){
         return(
             <div>
@@ -26,6 +34,7 @@ console.log(err);
     <input
     type="email"
     id="email"
+    name="email"
     placeholder="enter Email ID"
     onChange={this.handleChange}
     value={this.state.email}
@@ -34,6 +43,7 @@ console.log(err);
 <input
     type="password"
     id="email"
+    name="password"
     placeholder="enter Passsword"
     onChange={this.handleChange}
     value={this.state.password}
