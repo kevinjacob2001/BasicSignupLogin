@@ -1,6 +1,7 @@
 import React , { Component } from "react";
 import fire from "./config/fire";
 
+import './Home.css';
 
 class Home extends Component{
 constructor(props)
@@ -21,12 +22,15 @@ logout(){
         console.log("Error while signing out!")
     })
 }
+
+
 render()
 {
+
     return(
-        <div>
-           <h1>You are successfully logged in !!!</h1>
-            <button onClick={this.logout}>Logout</button>
+        <div className="main">
+           <h1 style={{color:"white"}}>You are successfully logged in !!!</h1>
+            <button className="btn-style" onClick={this.logout}>Logout</button>
         </div>
     )
 }
