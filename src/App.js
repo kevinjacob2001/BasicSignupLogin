@@ -30,7 +30,7 @@ authListener(){
 
   render(){
     return(
-      <div>
+      <div className="App">
      {this.state.user?(<Home/>):(<Login/>)}
       </div>
     )
