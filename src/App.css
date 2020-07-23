@@ -1,0 +1,8 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #d16ba5, #bc60a7, #a358aa, #8752ab, #644dab, #4c56af, #305eaf, #0064ad, #0075a9, #2683a0, #548f98, #7a9896);
+  }

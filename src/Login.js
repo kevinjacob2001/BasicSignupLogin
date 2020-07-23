@@ -7,7 +7,7 @@ class Login extends Component{
         this.login=this.login.bind(this);
         this.handleChange=this.handleChange.bind(this);
         this.signup=this.signup.bind(this)
-        
+
         this.state={
             email:"",
             password:""
@@ -46,8 +46,10 @@ this.setState({
 
     render(){
         return(
-            <div>
-<form>
+<div>
+    <form>
+
+    <div>
     <input
     type="email"
     id="email"
@@ -56,20 +58,30 @@ this.setState({
     onChange={this.handleChange}
     value={this.state.email}
     />
+    </div>
 
-<input
-    type="password"
-    id="email"
-    name="password"
-    placeholder="enter Passsword"
-    onChange={this.handleChange}
-    value={this.state.password}
-    />
-    <button onClick={this.login}>Login</button>
-    <button onClick={this.signup}>Sign up</button>
-</form>
+    <div>   
+        <input
+        type="password"
+        id="email"
+        name="password"
+        placeholder="enter Passsword"
+        onChange={this.handleChange}
+        value={this.state.password}
+        />
+    </div>    
+   
+        <div>
+        <button onClick={this.login}>Login</button>
+        </div>
+    
+        <div>
+        <button onClick={this.signup}>Sign up</button>
+        </div>
+    
+    </form>
        
-            </div>
+</div>
         )
     }
 }
